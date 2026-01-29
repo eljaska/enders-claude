@@ -1,0 +1,21 @@
+{
+  "name": "enders-claude",
+  "version": "1.0.0",
+  "description": "Ender's personal Claude Code settings with coding conventions, auto-installs recommended plugins, and includes extensive feature documentation",
+  "author": {
+    "name": "Ender Jaska",
+    "email": "eljaska@gmail.com"
+  },
+  "homepage": "https://github.com/eljaska/enders-claude",
+  "repository": "https://github.com/eljaska/enders-claude.git",
+  "license": "MIT",
+  "keywords": [
+    "trino",
+    "java",
+    "documentation",
+    "code-review",
+    "git-workflow",
+    "starter-config",
+    "personal-config"
+  ]
+}

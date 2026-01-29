@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "enders-marketplace",
+  "description": "Ender's personal Claude Code marketplace with custom plugins and comprehensive feature documentation",
+  "owner": {
+    "name": "Ender Jaska",
+    "email": "eljaska@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "enders-claude",
+      "description": "Ender's personal Claude Code settings with coding conventions, auto-installs recommended plugins, and includes extensive feature documentation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ender Jaska",
+        "email": "eljaska@gmail.com"
+      },
+      "source": "./plugins/enders-claude",
+      "category": "productivity",
+      "homepage": "https://github.com/eljaska/enders-claude"
+    }
+  ]
+}

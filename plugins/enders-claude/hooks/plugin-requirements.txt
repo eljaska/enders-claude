@@ -1,0 +1,8 @@
+# Plugin dependencies for Ender's Claude Code settings
+# One plugin per line. Lines starting with # are comments.
+# Format: plugin-name[@marketplace-name]
+
+# Code review and security tools
+pr-review-toolkit
+security-guidance
+code-review
