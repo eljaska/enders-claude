@@ -1,0 +1,17 @@
+{
+  "description": "Auto-installer for recommended plugins on first launch",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/install-dependencies.sh",
+            "timeout": 60000
+          }
+        ]
+      }
+    ]
+  }
+}
